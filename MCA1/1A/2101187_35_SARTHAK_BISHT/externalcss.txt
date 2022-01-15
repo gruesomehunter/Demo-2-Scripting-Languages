@@ -1,0 +1,37 @@
+An external style sheet is a separate file wherewe can declare all the styles  to apply on our website.
+This style sheet is then linked to the html file.We can use this external css file anywhere to apply the same style. The external css file is saved with a .css extension.
+
+
+css file: ext.css
+
+body {
+    
+    color:green;
+    background-color:blue;
+    font-size: 3em;
+}
+h1 {
+    color:yellow;
+}
+.colors{
+    color:aqua;
+}
+
+HTML fille:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="ext.css">
+</head>
+<body>
+    <h>External Css</h>
+    <p class="colorful"> An external style sheet is a separate file wherewe can
+    declare all the styles  to apply on our website.
+    This style sheet is then linked to the html file.We
+    can use this external css file anywhere to apply the
+    same style. The external css file is saved with a .css
+    extension. 
+</p>
+</body>
+</html>
